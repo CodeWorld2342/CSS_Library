@@ -1,0 +1,76 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: auto;
+}
+
+.btn {
+    color: aqua;
+    background-color:white;
+    border:aqua solid;
+    margin: 10px;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+
+.col{
+    flex: 1;
+    background-color: red;
+    padding: 20px;
+    margin: 10px;
+}
+
+.nav {
+    padding: 10px;
+    background-color: darkgrey;
+    font-weight: 800;
+    color: white;
+}
+
+a {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+
+.flexed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    font-weight: 800;
+    color: white;
+    gap: 1rem;
+}
+
+.active {
+    color:white
+}
+
+.out {
+    box-shadow: 10px 5px 5px black;
+    background-color: aqua;
+}
+
+.second {
+    display: flex;
+    width: auto;
+    background-color:pink;
+    align-items: center;
+    min-height: 1px;
+    margin-bottom:5px;
+    justify-content: center;
+}
